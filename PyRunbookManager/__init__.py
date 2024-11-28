@@ -1,1 +1,1 @@
-from .PyRunbookManager import modulemamanger
+from .PyRunbookManager import modulemanager
