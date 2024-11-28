@@ -1,7 +1,7 @@
 import sys
 import subprocess
 
-class modulemamanger:
+class modulemanager:
     def install(module_name):
         try:
             print(f"[PyRunbookManager] Attempting to install {module_name}")
