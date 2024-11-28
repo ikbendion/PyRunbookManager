@@ -1,7 +1,7 @@
 # PyRunbookManager
 Easily install PIP dependencies in your azure runbook at runtime.
 # Setup
-- Download the .whl build from the pypi project page
+- Download the .whl build from the [PyPI project page](https://pypi.org/project/PyRunbookManager/)
 - Add it as a module in your runtime environment
 # Usage
 To install additional modules, you must first import PyRunbookManager.
@@ -11,7 +11,7 @@ from PyRunbookManager import modulemanager
 ## Installing a module
 ```python
 from PyRunbookManager import modulemanager
-modulemamanger.install("requests")
+modulemanager.install("requests")
 import requests
 ```
 ## installing a list of modules
@@ -19,7 +19,7 @@ import requests
 from PyRunbookManager import modulemanager
 dependencies = ['requests','os']
 for module in dependencies:
-    modulemananger.install(module)
+    modulemanager.install(module)
 
 import os
 import requests
