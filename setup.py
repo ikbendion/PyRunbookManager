@@ -11,7 +11,7 @@ DESCRIPTION = 'Easily install modules in azure automation runbooks.'
 
 # Setting up
 setup(
-    name="PyARCrbac",
+    name="PyRunbookManager",
     version=VERSION,
     author="ikbendion (dblonk)",
     author_email="<contact@ikbendion.nl>",
