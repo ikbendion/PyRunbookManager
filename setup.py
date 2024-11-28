@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Easily install modules in azure automation runbooks.'
 
 # Setting up
